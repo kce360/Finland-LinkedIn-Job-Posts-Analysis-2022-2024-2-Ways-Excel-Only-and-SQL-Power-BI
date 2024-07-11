@@ -1,0 +1,2 @@
+# Finland-LinkedIn-Job-Posts-Analysis-2022-2024-2-Ways-Excel-Only-and-SQL-Power-BI
+The dataset is web scrapped from LinkedIn Finland 2022-2024. The analysis is made in two ways: data cleaning, transformation, analysis, and visualizations in Excel with full narrative analysis; and data cleaning and transformations in SQL, with data visualization on one board in Power BI with some further explanation.
