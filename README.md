@@ -220,7 +220,7 @@ The `applicationsCount` data was transformed into a numerical format for easier 
 New columns were added to count the presence of keywords like "data" and "analyst" in job descriptions and titles. This involved scanning the text for these keywords and marking their presence, aiding in analyzing the demand for data-related skills.
 
 ### Step 10: Final Data Preparation
-Final updates and corrections were made to the dataset. This included setting a standard sector for specific companies, fixing any remaining data inconsistencies, and ensuring all data was ready for analysis. The table was prepared for export and use in Power BI. Some columns are not used in Power BI but I decided to keep them for verification when it is necessary like companyURL and publishedAt. 1257 rows of data (same as in Excel) were obtained as a result of data cleaning and transforming in MSSM.
+Final updates and corrections were made to the dataset. This included setting a standard sector for specific companies, fixing any remaining data inconsistencies, and ensuring all data was ready for analysis. The table was prepared for export and use in Power BI. Some columns are not used in Power BI but I decided to keep them for verification when it is necessary like companyURL and publishedAt. 1257 rows of data (same as in Excel) were obtained as a result of data cleaning and transforming in SSMS.
 
 ### SQL File
 The complete SQL code used for this project is available in the scripts folder on GitHub. 1257 rows of data (same as in Excel) were obtained as a result of data cleaning and transforming in SSMS.
@@ -231,7 +231,7 @@ Uploaded the dataset to Power BI using an SQL query. Initially, Month and Year w
 
 The PowerBI dashboard displayed in the image provides a comprehensive analysis of job openings in Finland from LinkedIn. The visualizations are designed to address key research questions related to job postings, regional distribution, sector distribution, and the demand for specific job skills. The .pbix file to play with can be found in scripts folder.
 
-![LinkedIn Viz Power BI](./scripts/linkedIn Viz Power BI.png)
+![LinkedIn Viz Power BI](./scripts/linkedIn_Viz_Power_BI.png)
 
 The filters for contract type (e.g., full-time, part-time) and work arrangements (e.g., remote, on-site) provide insights into the variety of job types available and their flexibility. By filtering job titles mentioning "Data" or "Analyst," the dashboard can reveal the demand for data-related skills, crucial for those looking to enter or advance in data-focused roles. The user can also choose the experience level.
 
