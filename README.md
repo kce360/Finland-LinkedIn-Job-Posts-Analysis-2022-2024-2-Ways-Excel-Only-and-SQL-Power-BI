@@ -110,8 +110,10 @@ This dashboard provides an overall snapshot of job availability, distribution, a
    - Entry-level and mid-senior level positions are the most common, indicating a higher demand for professionals at these experience levels. However, if you are already at the executive level, you should use more powerful strategies to find a job. Also, internship offers are very few (and this is the right time for posting them), but this could be due to the personal preferences of job posters, who might choose entry-level or internship positions.
 
 # Job Market Analysis
-![Top 10 Part 1](./assets/images/Top 10 Part 1.png)
-![Top 10 Part 2](./assets/images/Top 10 Part 2.png)
+
+![Top 10 Part 1](./assets/images/Top_10_Part_1.png)
+
+![Top 10 Part 2](./assets/images/Top_10_Part_2.png)
 
 ## Top 10 Regions by Job Posts
 - The Uusimaa region leads with 591 job posts, significantly higher than any other region, suggesting a concentration of job opportunitiesPirkanmaa (Tampere) is the second choice if you need a job. My region (Etelä-Karjala) is not on the list, like many other regions. This could be due not only to the lack of job openings but also to the use of other job post services like Jobly and Duunitori.
@@ -145,7 +147,7 @@ This chart shows the bottom 10 sectors by the number of job posts.  Again, the r
 ## Job Posts Mentioning "Data"
 This chart shows that 67.46% of job posts do not mention "data," while 32.54% do. The significant presence of data-related job postings indicates a growing demand for data skills in the job market.
 
-![Data-Related Jobs Analysis](./assets/images/data-related jobs_analysis.png)
+![Data-Related Jobs Analysis](./assets/images/data-related_jobs_analysis.png)
 
 ## Job Titles Mentioning "Data" or "Analyst"
 An overwhelming 95.07% of job titles mention "data" or "analyst," compared to only 4.93% that do not. This highlights the importance of these keywords in job titles, reflecting the high demand for professionals with data analytics expertise.
