@@ -191,7 +191,7 @@ The Media sector has the highest average number of applications, indicating high
 ### Overall Summary
 The Finnish job market shows a robust demand for data-related skills, with notable opportunities in IT and related sectors. However, competition is significant, particularly in popular regions (and no jobs are offered in unpopular regions) and during peak periods, making strategic job searching and application submission crucial for success. It is worth adding that LinkedIn job posts are still messy since there are no strict recommendations on how to choose sectors/industries, location, work arrangements, and work types. Staffing agencies, for instance, might list data analytics positions for their clients in the Retail sector under HR, among other discrepancies that can affect the conclusion. Therefore, it is advisable to play with the data, align it to your needs and interests, and try to verify the results.
 
-## Part 2: SQL and Power BI Analysis of the Job Market in Finland 2022-2024
+# Part 2: SQL and Power BI Analysis of the Job Market in Finland 2022-2024
 ### Step 1: Created the Combined Table
 A new table, `LinkedInJobsCombined`, was created to store combined job data from Excel files. This table served as a centralized repository for job posts to facilitate comprehensive analysis.
 
