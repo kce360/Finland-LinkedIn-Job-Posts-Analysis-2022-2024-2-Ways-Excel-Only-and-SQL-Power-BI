@@ -246,7 +246,7 @@ SET formattedPublishedAt2 =   RIGHT('0' + CONVERT(VARCHAR, DAY(publishedAt)), 2)
 
 /* Populating the missing values*/
 
--- Populate publishedAt column with the date based on all vacancies posted 23 hours ago or later ñ 01-06-2024 (the day the dataset was scrapped)
+-- Populate publishedAt column with the date based on all vacancies posted 23 hours ago or later ‚Äì 01-06-2024 (the day the dataset was scrapped)
 UPDATE LinkedInJobsCombined
 SET publishedAt = '2024-06-01'
 WHERE publishedAt IS NULL;
@@ -296,10 +296,10 @@ WHERE regionFormatted is Null;
 UPDATE LinkedInJobsCombined
 SET regionFormatted = CASE
     WHEN location = 'Central Finland' THEN 'Keski-Suomi'
-    WHEN location = 'Eken‰s, Uusimaa, Finland' THEN 'Uusimaa'
+    WHEN location = 'Eken√§s, Uusimaa, Finland' THEN 'Uusimaa'
     WHEN location = 'Finland' THEN 'Anywhere in Finland'
     WHEN location = 'European Union' THEN 'Anywhere in Finland'
-    WHEN location = 'Greater Lahti Area' THEN 'P‰ij‰t-H‰me'
+    WHEN location = 'Greater Lahti Area' THEN 'P√§ij√§t-H√§me'
     WHEN location = 'Kainuu, Finland' THEN 'Kainuu'
     WHEN location = 'Kallo, Lapland, Finland' THEN 'Lappi'
     WHEN location = 'Kymenlaakso, Finland' THEN 'Kymenlaakso'
@@ -308,19 +308,19 @@ SET regionFormatted = CASE
     WHEN location = 'North Karelia, Finland' THEN 'Pohjois-Karjala'
     WHEN location = 'North Ostrobothnia, Finland' THEN 'Pohjois-Pohjanmaa'
     WHEN location = 'Northern Savonia, Finland' THEN 'Pohjois-Savo'
-    WHEN location = 'P‰ij‰t-H‰me, Finland' THEN 'P‰ij‰t-H‰me'
+    WHEN location = 'P√§ij√§t-H√§me, Finland' THEN 'P√§ij√§t-H√§me'
     WHEN location = 'Pirkanmaa, Finland' THEN 'Pirkanmaa'
-    WHEN location = 'Saariselk‰, Lapland, Finland' THEN 'Lappi'
+    WHEN location = 'Saariselk√§, Lapland, Finland' THEN 'Lappi'
     WHEN location = 'Saija, Lapland, Finland' THEN 'Lappi'
     WHEN location = 'Satakunta, Finland' THEN 'Satakunta'
-    WHEN location = 'South Karelia, Finland' THEN 'Etel‰-Karjala'
-    WHEN location = 'South Ostrobothnia, Finland' THEN 'Etel‰-Pohjanmaa'
-    WHEN location = 'South Savo, Finland' THEN 'Etel‰-Savo'
+    WHEN location = 'South Karelia, Finland' THEN 'Etel√§-Karjala'
+    WHEN location = 'South Ostrobothnia, Finland' THEN 'Etel√§-Pohjanmaa'
+    WHEN location = 'South Savo, Finland' THEN 'Etel√§-Savo'
     WHEN location = 'Southwest Finland, Finland' THEN 'Varsinais-Suomi'
-    WHEN location = 'Sydˆsterbotten sub-region, Ostrobothnia, Finland' THEN 'Pohjanmaa'
-    WHEN location = 'Tuuri, South Ostrobothnia, Finland' THEN 'Etel‰-Pohjanmaa'
+    WHEN location = 'Syd√∂sterbotten sub-region, Ostrobothnia, Finland' THEN 'Pohjanmaa'
+    WHEN location = 'Tuuri, South Ostrobothnia, Finland' THEN 'Etel√§-Pohjanmaa'
     WHEN location = 'Uusimaa, Finland' THEN 'Uusimaa'
-    WHEN location = 'Vehmaan kirkonkyl‰, Southwest Finland, Finland' THEN 'Varsinais-Suomi'
+    WHEN location = 'Vehmaan kirkonkyl√§, Southwest Finland, Finland' THEN 'Varsinais-Suomi'
     ELSE 'unknown'
 END
 WHERE regionFormatted IS NULL;
