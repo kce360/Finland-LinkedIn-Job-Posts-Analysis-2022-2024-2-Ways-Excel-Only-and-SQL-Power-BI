@@ -228,6 +228,8 @@ The complete SQL code used for this project is available in the scripts folder o
 
 Uploaded the dataset to Power BI using an SQL query. Initially, Month and Year were derived in Power Query Editor, as done before in Excel. A data table was also created to sort months in their normal order, but these steps were not necessary for the purpose of this analysis. The only DAX formulas used were for dynamic titles of the chart based on the user selections in the filter, and measurements for tooltips to list and show company names and job titles (up to 30) for the chosen values in filters.
 
+![LinkedIn Viz Power BI](./assets/images/linkedIn_Viz_Power_BI.png)
+
 The PowerBI dashboard displayed in the image provides a comprehensive analysis of job openings in Finland from LinkedIn. The visualizations are designed to address key research questions related to job postings, regional distribution, sector distribution, and the demand for specific job skills. The .pbix file to play with can be found in the scripts folder.
 
 ![LinkedIn Viz Power BI](./scripts/linkedIn_Viz_Power_BI.png)
