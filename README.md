@@ -1,7 +1,7 @@
 # LinkedIn Job Posts Analysis 2022-2024 in Finland
 
 ## Introduction
-The dataset was obtained from LinkedIn using the LinkedIn Jobs Scraper from the APIFY marketplace, spanning the time from November 2022 to June 1, 2024. According to LinkedIn (Post a Job on LinkedIn page), a job post will remain active until the poster manually closes it, or it will automatically close after six months. Therefore, the dataset cannot be considered a very precise data source. The dataset was made for my personal practice in data analysis and my personal interest in obtaining a job as a data analyst in Finland. However, it can be presented as a general snapshot of the job market in Finland from 2022 to 2024. 
+The dataset was obtained from LinkedIn using the LinkedIn Jobs Scraper from the APIFY marketplace, spanning the time from November 2022 to June 1, 2024. According to LinkedIn (Post a Job on LinkedIn page), a job post will remain active until the poster manually closes it, or it will automatically close after six months. Therefore, the dataset cannot be considered a very precise data source. The dataset was made for my practice in data analysis and my interest in obtaining a job as a data analyst in Finland. However, it can be presented as a general snapshot of the job market in Finland from 2022 to 2024. 
 
 We have no information about when the vacancies are closed (after what time), so some interesting insights are possibly missing, such as how quickly positions for analysts are closed and how many candidates are needed to find the right one. Some data may not be accurate due to the lack of initial data; for example, I had to fill in missing fields left empty by job posters. Some job descriptions are not informative and lack details, such as location discrepancies. Some job posts are dummies created to gather personal data or analyze the market of candidates with no intention of hiring anyone.
 
@@ -31,6 +31,8 @@ The datasets were derived from LinkedIn using the LinkedIn Jobs Scraper from the
 2. The analysis is made in two ways: data cleaning, transformation, analysis, and visualizations in Excel with full narrative analysis; and data cleaning and transformations in SQL, with data visualization on one board in Power BI with some further explanation.
 
 ## Part 1: Excel Analysis of the Job Market in Finland 2022-2024
+
+Combined all tables using Power Query. Uploaded data from a folder, removed unnecessary columns, and fixed the data type for the PublishedAt column. Created a data model for comprehensive analysis.
 
 ### Data Cleaning and Transformation
 
@@ -109,7 +111,7 @@ This dashboard provides an overall snapshot of job availability, distribution, a
 5. **Job Posts by Experience Level**:
    - Entry-level and mid-senior level positions are the most common, indicating a higher demand for professionals at these experience levels. However, if you are already at the executive level, you should use more powerful strategies to find a job. Also, internship offers are very few (and this is the right time for posting them), but this could be due to the personal preferences of job posters, who might choose entry-level or internship positions.
 
-# Job Market Analysis
+# Top 10 Dashboard
 
 ![Top 10 Part 1](./assets/images/Top_10_Part_1.png)
 
@@ -121,7 +123,7 @@ This dashboard provides an overall snapshot of job availability, distribution, a
 ## Top 10 Sectors by Job Posts
 - Information Technology tops the list with 366 job posts, followed by Human Resources and Manufacturing, indicating these are the leading sectors. But the average number of applications is also very high, so the competition is real.
 
-## Bottom 10 Sectors by Job Posts ( + Drill Down to Job Title)
+## Bottom 10 Sectors by Job Posts
 This chart shows the bottom 10 sectors by the number of job posts.  Again, the results are quite interesting. Maybe it is more typical for these sectors to use other hiring methods.
 
 ## Top 10 Sectors by Average Number of Applications
@@ -232,9 +234,10 @@ Uploaded the dataset to Power BI using an SQL query. Initially, Month and Year w
 
 The PowerBI dashboard displayed in the image provides a comprehensive analysis of job openings in Finland from LinkedIn. The visualizations are designed to address key research questions related to job postings, regional distribution, sector distribution, and the demand for specific job skills. The .pbix file to play with can be found in the scripts folder.
 
-![LinkedIn Viz Power BI](./scripts/linkedIn_Viz_Power_BI.png)
-
 The filters for contract type (e.g., full-time, part-time) and work arrangements (e.g., remote, on-site) provide insights into the variety of job types available and their flexibility. By filtering job titles mentioning "Data" or "Analyst," the dashboard can reveal the demand for data-related skills, crucial for those looking to enter or advance in data-focused roles. The user can also choose the experience level.
+
+#### Job Posts by Period
+The chart shows the distribution of job postings over time. This trend highlights periods of heightened job market activity and can guide job seekers on the best times to search for new opportunities.
 
 #### Sector-Specific Hiring Trends
 The bar chart for top sectors illustrates which industries are most active in the job market. This helps understand sector-specific hiring trends and workforce demands. The tooltips show the number of job posts, the number of applications, and the average number of applications.
