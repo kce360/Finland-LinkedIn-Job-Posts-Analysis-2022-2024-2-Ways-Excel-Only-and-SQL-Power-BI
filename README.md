@@ -13,7 +13,7 @@ The purpose of this research is to find out the trends and the current state of 
 3. What companies and sectors are seeking data-related jobs?
 4. What are companies offering in terms of work arrangements?
 5. What level of experience is most in demand for data professionals?
-6. What sectors and jobs should you consider if you need some money to live while doing your pet projects?
+6. What sectors and jobs should you consider if you need money to live while doing your pet projects?
 7. What sectors should you avoid due to the highest competition rate?
 
 ## Data Collection and Preparation
@@ -85,7 +85,7 @@ Combined all tables using Power Query. Uploaded data from a folder, removed unne
 
 ## Part 2: Data Analysis in Excel
 
-All charts are made using PivotCharts, with slicers added to filter the results by chosen work arrangement, work type, or experience level. Excel file with raw data and dashboard to play with is added to the datasets folder.
+All charts are made using PivotCharts, with slicers added to filter the results by chosen work arrangement, work type, or experience level. Excel files with raw data and combined data + dashboards to play with are added to the dataset and the main folders of this repository.
 - **1st Sheet:** General Analysis of Job Openings in Finland from LinkedIn
 - **2nd Sheet:** Top 10 Dashboard
 - **3rd Sheet:** Data-related Jobs Trends and Opportunities
@@ -224,7 +224,7 @@ New columns were added to count the presence of keywords like "data" and "analys
 Final updates and corrections were made to the dataset. This included setting a standard sector for specific companies, fixing any remaining data inconsistencies, and ensuring all data was ready for analysis. The table was prepared for export and use in Power BI. Some columns are not used in Power BI but I decided to keep them for verification when it is necessary like companyURL and publishedAt. 1257 rows of data (same as in Excel) were obtained as a result of data cleaning and transforming in SSMS.
 
 ### SQL File
-The complete SQL code used for this project is available in the scripts folder on GitHub. 1257 rows of data (same as in Excel) were obtained as a result of data cleaning and transforming in SSMS.
+The complete SQL code used for this project is available in the main folder of this repository. 1257 rows of data (same as in Excel) were obtained as a result of data cleaning and transforming in SSMS.
 
 ### Step 11: Power BI
 
@@ -232,7 +232,7 @@ Uploaded the dataset to Power BI using an SQL query. Initially, Month and Year w
 
 ![LinkedIn Viz Power BI](./assets/images/linkedIn_Viz_Power_BI.png)
 
-The PowerBI dashboard displayed in the image provides a comprehensive analysis of job openings in Finland from LinkedIn. The visualizations are designed to address key research questions related to job postings, regional distribution, sector distribution, and the demand for specific job skills. The .pbix file to play with can be found in the scripts folder.
+The PowerBI dashboard displayed in the image provides a comprehensive analysis of job openings in Finland from LinkedIn. The visualizations are designed to address key research questions related to job postings, regional distribution, sector distribution, and the demand for specific job skills. The .pbix file to play with can be found in the main folder of the repository.
 
 The filters for contract type (e.g., full-time, part-time) and work arrangements (e.g., remote, on-site) provide insights into the variety of job types available and their flexibility. By filtering job titles mentioning "Data" or "Analyst," the dashboard can reveal the demand for data-related skills, crucial for those looking to enter or advance in data-focused roles. The user can also choose the experience level.
 
