@@ -150,11 +150,10 @@ This chart shows that 67.46% of job posts do not mention "data," while 32.54% do
 ![Data-Related Jobs Analysis](./assets/images/data-related_jobs_analysis.png)
 
 ## Job Titles Mentioning "Data" or "Analyst"
-An overwhelming 95.07% of job titles mention "data" or "analyst," compared to only 4.93% that do not. This highlights the importance of these keywords in job titles, reflecting the high demand for professionals with data analytics expertise.
+An overwhelming 95.07% of job titles do not mention "data" or "analyst," compared to only 4.93% that do. This highlights the relatively low presence of these keywords in job titles, indicating that while there is some demand for professionals with data analytics expertise, it is not the dominant focus in the current job market.
 
 ## Job Titles Mentioning "Data" or "Analyst" by Experience Level
 The chart indicates that entry-level positions account for 22 job titles, while mid-senior level positions account for 21. This distribution suggests opportunities across various experience levels, with a notable demand for entry-level and mid-senior level data analysts. The only problem here is that entry-level position requires 2-3 years of work experience.
-
 
 ## Job Titles Mentioning "Data" or "Analyst" by Region and Year
 Uusimaa leads with 32 job titles mentioning "data" or "analyst" in 2024, followed by "Anywhere in Finland" with 11. This regional analysis helps identify where data-related job opportunities are concentrated, with Uusimaa being a significant hub. So, if you are ready for relocation, it is time to move to Helsinki region. If not, you should be very good to be hired for a remote job.
@@ -229,7 +228,7 @@ The complete SQL code used for this project is available in the scripts folder o
 
 Uploaded the dataset to Power BI using an SQL query. Initially, Month and Year were derived in Power Query Editor, as done before in Excel. A data table was also created to sort months in their normal order, but these steps were not necessary for the purpose of this analysis. The only DAX formulas used were for dynamic titles of the chart based on the user selections in the filter, and measurements for tooltips to list and show company names and job titles (up to 30) for the chosen values in filters.
 
-The PowerBI dashboard displayed in the image provides a comprehensive analysis of job openings in Finland from LinkedIn. The visualizations are designed to address key research questions related to job postings, regional distribution, sector distribution, and the demand for specific job skills. The .pbix file to play with can be found in scripts folder.
+The PowerBI dashboard displayed in the image provides a comprehensive analysis of job openings in Finland from LinkedIn. The visualizations are designed to address key research questions related to job postings, regional distribution, sector distribution, and the demand for specific job skills. The .pbix file to play with can be found in the scripts folder.
 
 ![LinkedIn Viz Power BI](./scripts/linkedIn_Viz_Power_BI.png)
 
